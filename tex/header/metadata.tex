@@ -1,0 +1,40 @@
+% !TeX root = ../main.tex
+
+\title[TITLE]
+    {FORMATTED\\TITLE}
+
+\subtitle[SUBTITLE]
+    {FORMATTED\\SUBTITLE}
+
+\date{\today}
+\author[SHORT NAME]{LONG DISPLAY NAME}
+
+\newcommand{\module}{MODULE}
+\newcommand{\moduleurl}{MODULE URL}
+
+\newcommand{\prof}{PROFESSOR NAME}
+\newcommand{\profurl}{PROFESSOR URL}
+
+\newcommand{\faculty}{FACULTY}
+\newcommand{\university}{UNIVERSITY}
+\newcommand{\universityurl}{UNIVERSITY URL}
+
+\institute{\href{\moduleurl}{\module}\\
+  \href{\profurl}{\prof}\\~\\
+  \faculty\\
+  \href{\universityurl}{\university}}
+
+\newcommand{\repourl}{https://github.com/nicosrm/24-beamer-template}
+
+\hypersetup{
+  % PDF metadata
+  pdfauthor={AUTHOR},
+  pdftitle={PDF TITLE},
+  pdfsubject={SUBJECT},
+  pdfkeywords={SOME, KEYWORDS},
+  % hyperref colouring
+  colorlinks,
+  allcolors=.,
+  urlcolor=blue,
+  citecolor=cyan
+}
